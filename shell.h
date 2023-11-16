@@ -18,7 +18,6 @@
 *
 */
 
-int main(int ac, char **av);
 void gid_prompt(void);
 void gidi_print(const char *pushing);
 void say_command(char *command, size_t size);

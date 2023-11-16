@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char command [169];
+	char command[169];
 
 	while (true)
 	{
