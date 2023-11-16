@@ -5,8 +5,9 @@
 */
 
 
-void gidi_print(const char *message)
+void gidi_print(const char *pushing)
 {
-	write(STDOUT_FILENO, message, strlen(message));
+	write(STDOUT_FILENO, pushing, strlen(pushing));
 }
 
+write(1, &pushing, strlen(pushing));
